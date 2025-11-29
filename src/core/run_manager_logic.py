@@ -138,7 +138,6 @@ class RunMangerLogic():
         self.model.reset_conversation()
         logging.info(f"Evaluating {model_name}/{run_name}/{p}/{d}/l{l} using {self.model_config['name']}")
 
-        # Solo testo e PROMPT
         response = self.model.generate_text(logic, GPT_PROMPT)
         fcounter = 0
         

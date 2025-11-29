@@ -1,0 +1,12 @@
+.env
+results/*
+data/*
+data_novel/*
+pipeline_log/*
+pipeline_log_novel/*
+pipeline_logic_log/*
+pipeline_logic_log_novel/*
+analysis.ipynb
+analysis/
+
+.vscode/
